@@ -1,2 +1,12 @@
-<h1 i18n="app-welcome|an introduction header for this sample">Hello i18n</h1>
-<p i18n="app-welcome|a paragraph explaining what this sample is">This is a sample of internationalization in Angular2.</p>
+<h1 i18n="an introduction header for this sample">Hello i18n</h1>
+<p i18n="a paragraph explaining what this sample is">This is a sample of internationalization in Angular2.</p>
+<h2 i18n>Attribute sample</h2>
+<input placeholder="Your name" [(ngModel)]="name" i18n-placeholder="a placeholder for field collecting the user's name">
+<h2 i18n>Multiple Element Sample</h2>
+<!--i18n:multiple element examples-->
+<p>Element 1</p>
+<p>Element 2</p>
+<!--/i18n-->
+<h2 i18n>Meaning Sample</h2>
+<p i18n="user welcome|a message welcoming the user by name">Hello {{name}}</p>
+

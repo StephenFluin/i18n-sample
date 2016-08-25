@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+ <file source-language="en" datatype="plaintext" original="ng2.template">
+   <body>
+     <trans-unit id="a05c3a315a6ee3e6ad4733a1f72e8d16775810ca" datatype="html">
+       <source>Hello i18n</source>
+       <target/>
+       <note priority="1" from="description">an introduction header for this sample</note>
+     </trans-unit>
+     <trans-unit id="330f03dd7f1beb59f825b8a1e19aa3b4c363c135" datatype="html">
+       <source>This is a sample of internationalization in Angular2.</source>
+       <target/>
+       <note priority="1" from="description">a paragraph explaining what this sample is</note>
+     </trans-unit>
+     <trans-unit id="2e9f59ccc95e6f62d9b746d04a12d892de43c7e6" datatype="html">
+       <source>Attribute sample</source>
+       <target/>
+     </trans-unit>
+     <trans-unit id="533b2b9a76ee1335cb44c01f0bfd50d43e9400b0" datatype="html">
+       <source>Your name</source>
+       <target/>
+       <note priority="1" from="description">a placeholder for field collecting the user&apos;s name</note>
+     </trans-unit>
+     <trans-unit id="3a64caf216dac5b830519cddbf59421c3a4730cf" datatype="html">
+       <source>Multiple Element Sample</source>
+       <target/>
+     </trans-unit>
+     <trans-unit id="a38f08018348aefa90b876185b02cd3baf2a5e8c" datatype="html">
+       <source>
+<x id="START_PARAGRAPH" ctype="p"/>Element 1<x id="CLOSE_PARAGRAPH" ctype="p"/>
+<x id="START_PARAGRAPH" ctype="p"/>Element 2<x id="CLOSE_PARAGRAPH" ctype="p"/>
+</source>
+       <target/>
+       <note priority="1" from="description">multiple element examples</note>
+     </trans-unit>
+     <trans-unit id="3782a1b759c918ef77cd145ef9ac974de4c3f18a" datatype="html">
+       <source>Meaning Sample</source>
+       <target/>
+     </trans-unit>
+     <trans-unit id="cb34c494bf21eb1f8b8ceeccb1a71a5f8ebb1a5c" datatype="html">
+       <source>Hello <x id="INTERPOLATION"/></source>
+       <target/>
+       <note priority="1" from="description">a message welcoming the user by name</note>
+       <note priority="1" from="meaning">user welcome</note>
+     </trans-unit>
+   </body>
+ </file>
+</xliff>
